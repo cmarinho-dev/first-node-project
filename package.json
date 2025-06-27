@@ -1,0 +1,22 @@
+{
+  "name": "first-node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:write": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cmarinho",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.1"
+  }
+}
